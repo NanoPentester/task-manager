@@ -30,7 +30,7 @@ public:
     {
         for(auto it : Tasks)
         {
-            std::cout << it.first << " " << it.second << std::endl;
+            std::cout << it.first << "-> " << it.second << std::endl;
         }
     }
 };
