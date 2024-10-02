@@ -30,6 +30,10 @@ public:
         while(choice != 0)
         {
             std::cout << "enter the choice between [1:3] press 0 to exit" << std::endl;
+            std::cout << "1- add task." << std::endl;
+            std::cout << "2- remove task." << std::endl;
+            std::cout << "3- show tasks." << std::endl;
+
             std::cin >> choice;
 
             switch(choice)
